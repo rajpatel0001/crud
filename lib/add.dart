@@ -1,7 +1,7 @@
-// import 'package:cloud_firestore/cloud_firestore.dart';
+
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
+
 import 'package:flutter/material.dart';
 
 class Add extends StatelessWidget {
@@ -38,7 +38,7 @@ class Add extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10)),
               child: TextField(
                 controller: name,
-                decoration: InputDecoration(hintText: "Name"),
+                decoration: InputDecoration(hintText:"Name"),
               ),
             ),
             SizedBox(
@@ -50,7 +50,7 @@ class Add extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10)),
               child: TextField(
                 controller: location,
-                decoration: InputDecoration(hintText: "Location"),
+                decoration: InputDecoration(hintText:"Location"),
               ),
             )
           ],

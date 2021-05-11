@@ -31,11 +31,6 @@ class _EditState extends State<Edit> {
                   'name': name.text,
                   'location': location.text
                 }).whenComplete(() => Navigator.pop(context));
-
-                // ref.add({
-                //   'name': name.text,
-                //   'location': location.text
-                // }).whenComplete(() => Navigator.pop(context));
               },
               child: Text(
                 "Save",
@@ -46,11 +41,6 @@ class _EditState extends State<Edit> {
                 widget.docEdit.reference
                     .delete()
                     .whenComplete(() => Navigator.pop(context));
-
-                // ref.add({
-                //   'name': name.text,
-                //   'location': location.text
-                // }).whenComplete(() => Navigator.pop(context));
               },
               child: Text(
                 "Delete",
